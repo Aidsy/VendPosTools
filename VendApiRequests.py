@@ -50,8 +50,8 @@ current_count = float(stores[storeCheck]['count'])
 #print current_count
 
 #Adjust stock level based on input
-stores[storeCheck]['count'] = current_count
-"""input("Enter additional stock count: ")+ """ 
+stores[storeCheck]['count'] = current_count + input("Enter additional stock count: ")
+ 
     
 #Pretty prints the output file to be sent
 pprint.pprint(outData)
